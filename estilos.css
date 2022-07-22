@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cadetblue;
+}
+
+.img1 {
+    width: 500px;
+    height: 500px;
+}
+
+.titulo1 {
+    width: 500px;
+    height: 300px;
+}
+
+.boton {
+    font-size: 15px;
+    display: block;
+    background: linear-gradient(180deg, #4C1E0E 0%, #220d05 100%);
+    transition: all .3s;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 15px;
+
+    margin-left: 200px;
+    font-weight: bold;
+    border-radius: 15px;
+    font-family: 'Trispace', sans-serif;
+}
+
+/*BARRA DE NAVEGACIÓN*/
+.header1 {
+    height: 80px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+    
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-link {
+    color: #4C1E0E;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;  
+}
+
+.menu-link:hover {
+    color: #9e604b;
+}
+
+.menu-link1 {
+    color: #E5DFDD;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;  
+}
+
+.menu-link1:hover {
+    color:#000000;
+}
+
+.menu-item {
+    font-size: 15px;
+    margin: 0 10px;
+    line-height: 80px;
+}
+
+.menu-item:active {
+    transform: scale(0.98);
+    transition: all .2s;
+}
+
+.logo {
+    width: 180px;
+    padding: 6px 40px;
+    line-height: 80px;
+}
+.logo:active {
+    transform: scale(0.98);
+    transition: all .2s;
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.fi {
+    color: #4C1E0E;
+    margin-right: 3px;
+}
+
+.fi:hover {
+    color: #9e604b;
+}
+
+.fi1 {
+    color: #E5DFDD;
+    margin-right: 3px;
+}
+
+.fi1:hover {
+    color:#000000;
+}
+
+/*ARREGLOS NAVBAR*/
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/*PIE DE PÁGINA*/
+footer {
+background-color: #202020;
+color: #c7c7c7;
+width: 100%;
+
+animation: BGcolorChanging-4colors 6s linear infinite alternate both;
+}
+
+@keyframes BGcolorChanging-4colors {
+0% {
+background: #202020;
+}
+33.3333% {
+background: #3a3635;
+}
+66.666% {
+background: #424140;
+}
+100% {
+background: #161616;
+}
+}
+
+.container-footer-all {
+/*width: 100vw;*/
+max-width: 1200px;
+margin: auto;
+padding: 40px;
+}
+
+.container-footer1 {
+display: flex;
+justify-content: space-evenly;
+font-family: sans-serif; 
+}
+
+.column1 {
+max-width: 600px;
+}
+
+.column1 .row {
+margin-top: 20px;
+display: flex;
+}
+
+.row1 img { /*ESTO*/
+width: 30px;
+height: 30px;
+color: #c7c7c7;
+}
+
+.row1 label {
+margin-top: 10px;
+margin-left: 20px;
+font-size: 14px;
+}
+
+.titulo-footer {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+}
+
+.row2 a {
+color: #c7c7c7;
+text-decoration: none;
+font-size: 14px;
+}
+
+.column3 {
+max-width: 600px;
+}
+
+.row3 {
+margin-top: 20px;
+display: flex;
+}
+
+.row3 img {
+width: 25px;
+height: 25px;
+}
+
+.row3 label {
+margin-top: 10px;
+margin-left: 20px;
+max-width: 140px;
+font-size: 14px;
+}
+
+.container-footer2 {
+width: 100%;
+background-color: #101010;
+color: #c7c7c7;
+
+animation: BGcolorChanging-footer2 6s linear infinite alternate both;
+}
+
+@keyframes BGcolorChanging-footer2 {
+0% {
+background: #101010;
+}
+33.3333% {
+background: #272424;
+}
+66.666% {
+background: #363433;
+}
+100% {
+background: #0e0d0d;
+}
+}
+
+.container-footer-footer2 {
+max-width: 1200px;
+margin: auto;
+padding: 20px;
+}
+
+.carousel-inner {
+    height: 86vh;
+}
+.carousel-inner img {
+    height: 86vh;
+    min-width: 100vw;
+}
